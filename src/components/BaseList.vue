@@ -14,6 +14,9 @@
 .list-title {
   font-weight: bold;
 }
+ul {
+  padding-left: 16px;
+}
 </style>
 
 
