@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>{{ listTitle }}</p>
+    <p class="list-title">{{ listTitle }}</p>
     <ul v-if="items">
       <li
         v-for="(item, index) in items"
@@ -9,6 +9,13 @@
     </ul>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.list-title {
+  font-weight: bold;
+}
+</style>
+
 
 <script>
 export default {

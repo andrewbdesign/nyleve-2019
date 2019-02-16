@@ -9,7 +9,7 @@
     border-radius: 25px;
     padding: 12px 40px;
     border: none;
-    font-size: 14px;
+    font-size: 1.3rem;
     margin: $m-size 0;
     cursor: pointer;
     &:hover {

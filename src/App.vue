@@ -16,10 +16,21 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+h1, h2 {
+  margin: 0;
+}
+h2 {
+  font-size: 1.9rem;
+  margin: 0;
+}
 p {
-  font-size: $m-size;
-  line-height: 1.8;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 20px 0 0;
+}
+li, a {
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
 
 </style>

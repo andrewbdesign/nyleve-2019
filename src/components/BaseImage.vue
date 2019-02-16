@@ -15,7 +15,12 @@
 .base-image {
   text-align: center;
   img {
-    width: 80%;
+    width: 100%;
+    margin: 1.3rem 0;
+  }
+  img + p {
+    font-weight: bold;
+    margin: 0 0 10px;
   }
   a {
     color: $link;
