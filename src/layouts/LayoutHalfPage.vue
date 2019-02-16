@@ -8,7 +8,7 @@
 .half {
   display: flex;
   justify-content: space-evenly;
-  // flex-direction: column;
+  flex-direction: column;
   div {
     width: 100%;
   }

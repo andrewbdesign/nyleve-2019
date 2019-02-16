@@ -35,14 +35,14 @@
     ></LayoutImageRight>
 
     <LayoutImageFull
-      :title="appflow.title"
-      :summary="appflow.summary"
-      :listTitle="appflow.listTitle"
-      :items="appflow.items"
-      :image="appflow.image"
-      :desktop="appflow.desktop"
-      :tablet="appflow.tablet"
-      :mobile="appflow.mobile"
+      :title="webdesign.title"
+      :summary="webdesign.summary"
+      :listTitle="webdesign.listTitle"
+      :items="webdesign.items"
+      :image="webdesign.image"
+      :desktop="webdesign.desktop"
+      :tablet="webdesign.tablet"
+      :mobile="webdesign.mobile"
     ></LayoutImageFull>
 
     <LayoutImageRight
@@ -65,6 +65,10 @@ import LayoutSummary from '@/layouts/LayoutSummary.vue';
 import LayoutImageLeft from '@/layouts/LayoutImageLeft.vue';
 import LayoutImageRight from '@/layouts/LayoutImageRight.vue';
 import LayoutImageFull from '@/layouts/LayoutImageFull.vue';
+// Images
+import Laptop from '@/assets/easy-bill-pay/laptop.png';
+import Mobile from '@/assets/easy-bill-pay/mobile.png';
+import LaptopTabletMobile from '@/assets/easy-bill-pay/laptop-tablet-mobile.png';
 
 export default {
   components: {
@@ -95,7 +99,7 @@ export default {
           'This is a list 3',
           'This is a list 41',
         ],
-        image: 'https://www.fillmurray.com/200/200',
+        image: Laptop,
         desktop: 'https://www.fillmurray.com/202/202',
         tablet: 'https://www.fillmurray.com/204/204',
         mobile: 'https://www.fillmurray.com/206/206',
@@ -110,7 +114,22 @@ export default {
           'This is a list 3',
           'This is a list 41',
         ],
-        image: 'https://www.fillmurray.com/200/200',
+        image: Mobile,
+        desktop: 'https://www.fillmurray.com/202/202',
+        tablet: 'https://www.fillmurray.com/204/204',
+        mobile: 'https://www.fillmurray.com/206/206',
+      },
+      webdesign: {
+        title: 'Web Design',
+        summary: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        listTitle: 'Key considerations & responsibilitiessss',
+        items: [
+          'This is a list 1',
+          'This is a list 2',
+          'This is a list 3',
+          'This is a list 41',
+        ],
+        image: LaptopTabletMobile,
         desktop: 'https://www.fillmurray.com/202/202',
         tablet: 'https://www.fillmurray.com/204/204',
         mobile: 'https://www.fillmurray.com/206/206',
@@ -125,22 +144,7 @@ export default {
           'This is a list 3',
           'This is a list 41',
         ],
-        image: 'https://www.fillmurray.com/200/200',
-        desktop: 'https://www.fillmurray.com/202/202',
-        tablet: 'https://www.fillmurray.com/204/204',
-        mobile: 'https://www.fillmurray.com/206/206',
-      },
-      appdesign: {
-        title: '(UI/UX) App Design',
-        summary: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-        listTitle: 'Key considerations & responsibilitiessss',
-        items: [
-          'This is a list 1',
-          'This is a list 2',
-          'This is a list 3',
-          'This is a list 41',
-        ],
-        image: 'https://www.fillmurray.com/200/200',
+        image: Mobile,
         desktop: 'https://www.fillmurray.com/202/202',
         tablet: 'https://www.fillmurray.com/204/204',
         mobile: 'https://www.fillmurray.com/206/206',

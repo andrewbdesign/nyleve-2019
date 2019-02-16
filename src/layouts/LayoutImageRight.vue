@@ -21,6 +21,13 @@
   </div>
 </template>
 
+<style lang="scss" scoped>
+.image-right {
+  background: $offWhite;
+}
+</style>
+
+
 <script>
 import LayoutContainer from '@/layouts/LayoutContainer.vue';
 import LayoutHalfPage from '@/layouts/LayoutHalfPage.vue';
