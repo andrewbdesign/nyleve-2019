@@ -4,7 +4,10 @@
         <h1>Nyleve 'The Designer' Alejandrino</h1>
         <p>"Sometimes you gotta do what you gotta do" - circa 2016</p>
         <HomeWorks></HomeWorks>
-        <BaseButton msg="See all works" />
+        <BaseButton
+          @click.native="toWorksPage"
+          msg="See all works"
+        />
     </LayoutContainer>
   </div>
 </template>
@@ -27,6 +30,11 @@ export default {
     BaseButton,
     HomeWorks,
     LayoutContainer,
+  },
+  methods: {
+    toWorksPage() {
+      this.$router.push('easy-bill-pay');
+    },
   },
 };
 </script>

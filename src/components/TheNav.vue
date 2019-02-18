@@ -1,9 +1,22 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/easy-bill-pay">Easy Bill Pay</router-link>
+    <LayoutContainerNoPadding>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/easy-bill-pay">Easy Bill Pay</router-link>
+    </LayoutContainerNoPadding>
   </div>
 </template>
+
+<script>
+import LayoutContainerNoPadding from '@/layouts/LayoutContainerNoPadding.vue';
+
+export default {
+  components: {
+    LayoutContainerNoPadding,
+  },
+};
+</script>
+
 
 <style lang="scss">
 #nav {

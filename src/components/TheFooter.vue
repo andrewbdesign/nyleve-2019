@@ -1,11 +1,18 @@
 <template>
   <footer class="footer">
-    <p> Nyleve Alejandrino | {{ date }} </p>
+    <LayoutContainerNoPadding>
+      <p> Nyleve Alejandrino | {{ date }} </p>
+    </LayoutContainerNoPadding>
   </footer>
 </template>
 
 <script>
+import LayoutContainerNoPadding from '@/layouts/LayoutContainerNoPadding.vue';
+
 export default {
+  components: {
+    LayoutContainerNoPadding,
+  },
   data() {
     return {
       date: new Date().getFullYear(),
