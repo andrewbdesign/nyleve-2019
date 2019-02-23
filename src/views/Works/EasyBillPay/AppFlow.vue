@@ -8,6 +8,7 @@
     :desktop="desktop"
     :tablet="tablet"
     :mobile="mobile"
+    :className="className"
   ></LayoutImageRight>
 </template>
 
@@ -33,6 +34,7 @@ export default {
       desktop: 'https://www.fillmurray.com/202/202',
       tablet: 'https://www.fillmurray.com/204/204',
       mobile: 'https://www.fillmurray.com/206/206',
+      className: 'ebp-mobile',
     };
   },
 };

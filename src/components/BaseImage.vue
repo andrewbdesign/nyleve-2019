@@ -3,6 +3,7 @@
     <img
       :src="image"
       alt="phone"
+      :class="className"
     />
     <p class="">Image Gallery (Closer look)</p>
     <a :href="desktop">Desktop</a> |
@@ -24,6 +25,26 @@
   }
   a {
     color: $link;
+  }
+  .ebp-wireframe {
+    padding-top: 2rem;
+  }
+}
+@media screen and (min-width: 780px){
+  .base-image {
+    .ebp-mobile {
+      margin: 0;
+      width: 70%;
+    }
+    .ebp-wireframe {
+      margin: 0;
+      width: 90%;
+      padding-top: 4rem;
+    }
+    .ebp-webdesign {
+      width: 80%;
+      padding: 4rem 0;
+    }
   }
 }
 </style>
@@ -47,6 +68,10 @@ export default {
     mobile: {
       type: String,
       required: true,
+    },
+    className: {
+      type: String,
+      require: false,
     },
   },
 };

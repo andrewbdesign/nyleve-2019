@@ -17,7 +17,6 @@ export default {
 };
 </script>
 
-
 <style lang="scss">
 #nav {
   background: $greyDark;
@@ -31,4 +30,9 @@ export default {
     text-decoration: none;
   }
 }
+  @media screen and (min-width: $tablet) {
+    #nav {
+      padding: 20px 0;
+    }
+  }
 </style>

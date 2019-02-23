@@ -1,5 +1,5 @@
 <template>
-  <LayoutImageLeft
+  <!-- <LayoutImageLeft
     :title="title"
     :summary="summary"
     :listTitle="listTitle"
@@ -8,16 +8,28 @@
     :desktop="desktop"
     :tablet="tablet"
     :mobile="mobile"
-  ></LayoutImageLeft>
+    :className="className"
+  ></LayoutImageLeft> -->
+  <LayoutImageFull
+    :title="title"
+    :summary="summary"
+    :listTitle="listTitle"
+    :items="items"
+    :image="image"
+    :desktop="desktop"
+    :tablet="tablet"
+    :mobile="mobile"
+    :className="className"
+  ></LayoutImageFull>
 </template>
 
 <script>
-import LayoutImageLeft from '@/layouts/LayoutImageLeft.vue';
-import Laptop from '@/assets/easy-bill-pay/laptop.png';
+import LayoutImageFull from '@/layouts/LayoutImageFull.vue';
+import Laptop from '@/assets/easy-bill-pay/EBP-wireframe-section.png';
 
 export default {
   components: {
-    LayoutImageLeft,
+    LayoutImageFull,
   },
   data() {
     return {
@@ -36,6 +48,7 @@ export default {
       desktop: 'https://www.fillmurray.com/202/202',
       tablet: 'https://www.fillmurray.com/204/204',
       mobile: 'https://www.fillmurray.com/206/206',
+      className: 'ebp-wireframe',
     };
   },
 };

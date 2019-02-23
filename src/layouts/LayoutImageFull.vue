@@ -8,6 +8,7 @@
         :desktop="desktop"
         :tablet="tablet"
         :mobile="mobile"
+        :className="className"
       ></BaseImage>
       <BaseList
         :items="items"
@@ -53,6 +54,10 @@ export default {
       required: false,
     },
     mobile: {
+      type: String,
+      required: false,
+    },
+    className: {
       type: String,
       required: false,
     },

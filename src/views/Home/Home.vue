@@ -9,6 +9,7 @@
           msg="See all works"
         />
     </LayoutContainer>
+    <About></About>
   </div>
 </template>
 
@@ -24,12 +25,14 @@
 import BaseButton from '@/components/BaseButton.vue';
 import HomeWorks from '@/views/Home/HomeWorks.vue';
 import LayoutContainer from '@/layouts/LayoutContainer.vue';
+import About from '@/views/Home/About/About.vue';
 
 export default {
   components: {
     BaseButton,
     HomeWorks,
     LayoutContainer,
+    About,
   },
   methods: {
     toWorksPage() {

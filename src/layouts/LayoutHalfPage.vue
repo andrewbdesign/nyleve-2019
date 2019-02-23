@@ -9,8 +9,16 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+  padding: 3rem 0 0;
   div {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 980px){
+  .half {
+    flex-direction: row;
+    align-items: center;
   }
 }
 </style>

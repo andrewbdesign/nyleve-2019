@@ -14,8 +14,13 @@ $m-size: 1.6rem;
 $l-size: 3.2rem;
 $xl-size: 4.8rem;
 
+// Tablet Narrow
+$tablet: 26rem;
+$desktop: 80rem;
+
 // Max-width
 $max-width: 120rem;
+
 
 html {
   font-size: 10px;
@@ -41,4 +46,14 @@ p {
 li, a {
   font-size: 1.5rem;
   line-height: 1.6;
+}
+li {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: $tablet) {
+  li {
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
 }
