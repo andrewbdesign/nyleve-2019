@@ -1,5 +1,5 @@
 <template>
-  <div class="base-image">
+  <div class="base-image" v-if="image">
     <img
       :src="image"
       alt="phone"

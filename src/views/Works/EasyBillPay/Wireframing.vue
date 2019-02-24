@@ -1,15 +1,4 @@
 <template>
-  <!-- <LayoutImageLeft
-    :title="title"
-    :summary="summary"
-    :listTitle="listTitle"
-    :items="items"
-    :image="image"
-    :desktop="desktop"
-    :tablet="tablet"
-    :mobile="mobile"
-    :className="className"
-  ></LayoutImageLeft> -->
   <LayoutImageFull
     :title="title"
     :summary="summary"
