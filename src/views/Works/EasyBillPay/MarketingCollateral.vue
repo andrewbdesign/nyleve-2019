@@ -6,9 +6,9 @@
     ></LayoutImageList>
     <LayoutContainerNoPadding>
       <div class="banner-section">
-        <iframe src="http://staging.slik.com.au/qantbusinessrewards/QBR0039_QBR_Jan-Feb_Campaign/v19/airline_1/300x250/"></iframe>
-        <iframe src="http://staging.slik.com.au/qantbusinessrewards/QBR0039_QBR_Jan-Feb_Campaign/v19/airline_1/300x250/"></iframe>
-        <iframe src="http://staging.slik.com.au/qantbusinessrewards/QBR0039_QBR_Jan-Feb_Campaign/v19/airline_1/300x250/"></iframe>
+        <iframe src="https://300x250concepta-cpml2h40f.now.sh/"></iframe>
+        <iframe src="https://300x250conceptb-50pb9emh3.now.sh/"></iframe>
+        <iframe src="https://300x250conceptd-4ae6f0rny.now.sh/"></iframe>
       </div>
     </LayoutContainerNoPadding>
   </div>

@@ -2,10 +2,11 @@
   <div id="nav">
     <LayoutContainerNoPadding>
       <router-link to="/">Home</router-link> -
-      <router-link to="/easy-bill-pay">Easy Bill Pay</router-link> -
-      <router-link to="/macquarie-telecom">Macquarie Telecom</router-link> -
-      <router-link to="/king-living">King Living</router-link> -
-      <router-link to="/redscope">Redscope</router-link>
+      <router-link to="/works/easy-bill-pay">Easy Bill Pay</router-link> -
+      <router-link to="/works/macquarie-telecom">Macquarie Telecom</router-link> -
+      <router-link to="/works/king-living">King Living</router-link> -
+      <router-link to="/works/redscope">Redscope</router-link> -
+      <router-link to="/works/edm-html5-motion">EDM HTML5 Motion</router-link>
     </LayoutContainerNoPadding>
   </div>
 </template>

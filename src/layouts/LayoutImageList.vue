@@ -31,7 +31,7 @@ export default {
     },
     items: {
       type: Array,
-      required: true,
+      required: false,
     },
   },
 };

@@ -5,6 +5,7 @@ import EasyBillPay from './views/Works/EasyBillPay/EasyBillPay.vue';
 import MacquarieTelecom from './views/Works/MacquarieTelecom/MacquarieTelecom.vue';
 import KingLiving from './views/Works/KingLiving/KingLiving.vue';
 import Redscope from './views/Works/Redscope/Redscope.vue';
+import EdmHtml5Motion from './views/Works/EdmHtml5Motion/EdmHtml5Motion.vue';
 
 Vue.use(Router);
 
@@ -16,24 +17,29 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/easy-bill-pay',
+      path: '/works/easy-bill-pay',
       name: 'easybillpay',
       component: EasyBillPay,
     },
     {
-      path: '/macquarie-telecom',
+      path: '/works/macquarie-telecom',
       name: 'macquarietelecom',
       component: MacquarieTelecom,
     },
     {
-      path: '/king-living',
+      path: '/works/king-living',
       name: 'kingliving',
       component: KingLiving,
     },
     {
-      path: '/redscope',
+      path: '/works/redscope',
       name: 'redscope',
       component: Redscope,
+    },
+    {
+      path: '/works/edm-html5-motion',
+      name: 'edmhtml5motion',
+      component: EdmHtml5Motion,
     },
   ],
 });
