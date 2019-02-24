@@ -3,7 +3,8 @@
     <LayoutContainerNoPadding>
       <router-link to="/">Home</router-link> -
       <router-link to="/easy-bill-pay">Easy Bill Pay</router-link> -
-      <router-link to="/macquarie-telecom">Macquarie Telecom</router-link>
+      <router-link to="/macquarie-telecom">Macquarie Telecom</router-link> -
+      <router-link to="/king-living">King Living</router-link>
     </LayoutContainerNoPadding>
   </div>
 </template>
