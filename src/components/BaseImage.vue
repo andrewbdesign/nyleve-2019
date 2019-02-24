@@ -5,10 +5,12 @@
       alt="phone"
       :class="className"
     />
-    <p class="">Image Gallery (Closer look)</p>
-    <a :href="desktop">Desktop</a> |
-    <a :href="tablet">Tablet</a> |
-    <a :href="mobile">Mobile</a>
+    <div v-if="desktop">
+      <p class="">Image Gallery (Closer look)</p>
+      <a v-if="desktop" :href="desktop">Desktop</a> |
+      <a v-if="tablet" :href="tablet">Tablet</a> |
+      <a v-if="mobile" :href="mobile">Mobile</a>
+    </div>
   </div>
 </template>
 

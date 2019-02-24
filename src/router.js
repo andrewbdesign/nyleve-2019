@@ -4,6 +4,7 @@ import Home from './views/Home/Home.vue';
 import EasyBillPay from './views/Works/EasyBillPay/EasyBillPay.vue';
 import MacquarieTelecom from './views/Works/MacquarieTelecom/MacquarieTelecom.vue';
 import KingLiving from './views/Works/KingLiving/KingLiving.vue';
+import Redscope from './views/Works/Redscope/Redscope.vue';
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/king-living',
       name: 'kingliving',
       component: KingLiving,
+    },
+    {
+      path: '/redscope',
+      name: 'redscope',
+      component: Redscope,
     },
   ],
 });

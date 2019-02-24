@@ -1,26 +1,28 @@
 <template>
-  <div class="image-full">
+  <div class="image-left">
     <LayoutContainer>
       <h2 v-if="title"> {{ title }} </h2>
       <p v-if="summary"> {{ summary }} </p>
-      <BaseImage
-        :image="image"
-        :desktop="desktop"
-        :tablet="tablet"
-        :mobile="mobile"
-        :className="className"
-      ></BaseImage>
-      <BaseList
-        :items="items"
-        :listTitle="listTitle"
-      ></BaseList>
-      <slot></slot>
+      <LayoutHalfPage>
+        <BaseList
+          :items="items"
+          :listTitle="listTitle"
+        ></BaseList>
+        <BaseImage
+          :image="image"
+          :desktop="desktop"
+          :tablet="tablet"
+          :mobile="mobile"
+          :className="className"
+        ></BaseImage>
+      </LayoutHalfPage>
     </LayoutContainer>
   </div>
 </template>
 
 <script>
 import LayoutContainer from '@/layouts/LayoutContainer.vue';
+import LayoutHalfPage from '@/layouts/LayoutHalfPage.vue';
 import BaseImage from '@/components/BaseImage.vue';
 import BaseList from '@/components/BaseList.vue';
 
@@ -65,6 +67,7 @@ export default {
   },
   components: {
     LayoutContainer,
+    LayoutHalfPage,
     BaseImage,
     BaseList,
   },
