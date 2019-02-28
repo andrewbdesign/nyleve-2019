@@ -13,7 +13,7 @@
 
 <script>
 import LayoutImageFullList from '@/layouts/LayoutImageFullList.vue';
-import Laptop from '@/assets/easy-bill-pay/EBP-wireframe-section.png';
+import Laptop from '@/assets/king-living/kl-responsive.png';
 
 export default {
   components: {
@@ -22,10 +22,9 @@ export default {
   data() {
     return {
       title: 'Responsive Web Rollouts',
-      listTitle: 'Key considerations & responsibilites',
+      listTitle: 'Key considerations & responsibilities',
       items: [
-        'Responsive Roll outs with 3 break points for entirety of website',
-        'Maintenance of functionality look and feel',
+        'Responsive Roll outs with 4 break points of the intricate designs of the creative director on all platforms and devices whilst maintaining its functionality, look & feel.',
       ],
       image: Laptop,
       desktop: 'https://www.fillmurray.com/202/202',

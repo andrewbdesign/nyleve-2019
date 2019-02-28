@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       title: 'King Living',
-      summary: 'A beloved Australian furniture retail chain that focuses on sleek designer chairs. My main role for this brand was to carry out responsive roll outs of the desktop designs of the intricate and relatively large eCommerce website store.',
+      summary: 'A beloved Australian furniture retail chain that focuses on sleek designer chairs. My main role for this brand was to optimize and carry out responsive roll outs of the intricate award winning design lead by the creative director.',
       cta: 'Go to website',
     };
   },

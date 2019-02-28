@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       title: 'Macquarie Telecom',
-      summary: 'A beloved Australian furniture retail chain that focuses on sleek designer chairs. My main role for this brand was to carry out responsive roll outs of the desktop designs of the intricate and relatively large eCommerce website store.',
+      summary: 'One of Australia\'s leading Telecommunication services. My main role was to help optimise and and carry out responsive roll outs of their newly redesign website.',
       cta: 'Go to website',
     };
   },

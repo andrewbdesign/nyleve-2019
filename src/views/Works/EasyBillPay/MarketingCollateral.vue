@@ -3,6 +3,7 @@
     <LayoutImageList
       :title="title"
       :summary="summary"
+      :items="items"
     ></LayoutImageList>
     <LayoutContainerNoPadding>
       <div class="banner-section">
@@ -54,11 +55,10 @@ export default {
   data() {
     return {
       title: 'Marketing Collateral',
-      summary: 'After inital Wireframing and App Flow were approved it was time to move on to the design stage.',
+      summary: 'After a soft launch i was given the task to work on the marketing collateral to promote the product.',
       items: [
-        'Hellow',
-        'it\'s me again',
-        'How are yall?',
+        'Design and development of web mail content.',
+        'Design and development of animated HTML 5 Banners to promote the core functionality of the product.',
       ],
     };
   },

@@ -20,15 +20,14 @@ export default {
   data() {
     return {
       title: 'Web Design & Optimisation',
-      summary: 'As the web protal and App must have a unison sense of flow it was essential from the very earl stages to have this in mind. My role during the wire framing stage was to wok on and expand the ideas of the Creative Director to make sure his design thinking and solution is reflected on every necessary page/section of the Web Portal/App.',
+      summary: 'The main strategy was to point the end user towards their work portfolio and an easy to find call to action. One of the main challenges was finding the balance of maintaining their high quality video footage and images whilst keep the website as a whole light easy to navigate and light on data load.',
       listTitle: 'Key considerations & responsibilities',
       items: [
-        'Maintenance of core functionality and design language when expanding into creation of other pages',
-        'Applying an intuitive feeling when designing navigation to and from other pages',
-        'Thinking modular in terms of sections that would need little to no arragement when applied to different pages',
-        'Arrangement with a sense of responsive design in mind to allow functionality across all devices',
-        'Functionality interchangeable to both the web portal and mobile app to ensure all changes would be reflected from on platform to the other',
-        'Apply intuitive sense arrangement and information architecture as to not cause information overload',
+        'Design and execution of look and feel of their new website',
+        'Implementation of appropriate UI/UX strategies to ensure end user has an understanding of who they are and their skill set capabilities',
+        'Implementation of video hero banner that showcases Redscopes abilities within 15-30 seconds',
+        'Decreased website loading time by 65% by Image optimisation',
+        'Responsive Web roll out optimised for all devices with 3 break points',
       ],
       image: Laptop,
       desktop: 'https://www.fillmurray.com/202/202',

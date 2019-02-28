@@ -41,8 +41,8 @@ export default {
       title: 'Icon Design & Image optimisation',
       listTitle: 'Key considerations & responsibilites',
       items: [
-        'Designing icons to be integrated in to website while adhering their branding style',
-        'Implementing new exporting system to raise work effeciency for up to over 65%',
+        'Designing icons to be integrated into the website while adhering their branding style',
+        'Implementing new exporting system to raise work efficiency for up to over 65%',
         'Optimising images for all platforms and sizes',
       ],
       laptop: Laptop,

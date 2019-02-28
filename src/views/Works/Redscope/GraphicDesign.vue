@@ -23,12 +23,11 @@ export default {
   data() {
     return {
       title: 'Graphic Design',
-      summary: 'My role during this stage was creating the App flow for one of the most important components of the app which is adding a bill into the system that would allow choice for',
+      summary: 'Another task was to gather and extrapolate their stunning video stills and images to enhance the look and feel of their website.',
       listTitle: 'Key considerations & responsibilities',
       items: [
-        'The design would be compatible across all devices and interchangeable between the web portal and mobile app',
-        'Applying an intuitive story like flow that does not require too much cognitive load on the end user',
-        'Ensuring the flow does not hit a dead end, but instead forms a cycle that would repeated allow the end user to keep adding their bills',
+        'Photo touching and manipulation',
+        'Image extraction and design execution',
       ],
       image: Mobile,
       className: 'ebp-mobile',

@@ -15,7 +15,7 @@ export default {
   data() {
     return {
       title: 'Main roles & Responsibilities',
-      summary: 'UI/UX Design, Wireframing, App Design, App rollout, Web Design, Responsive Webrollouts, Marketing Design, Marketing Animation',
+      summary: 'Responsive Webrollout & Minor Page Design, Icon Design, Image Optimisation',
     };
   },
 };

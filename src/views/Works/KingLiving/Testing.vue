@@ -26,9 +26,8 @@ export default {
       summary: 'My role during this stage was creating the App flow for one of the most important components of the app which is adding a bill into the system that would allow choice for',
       listTitle: 'Key considerations & responsibilities',
       items: [
-        'The design would be compatible across all devices and interchangeable between the web portal and mobile app',
-        'Applying an intuitive story like flow that does not require too much cognitive load on the end user',
-        'Ensuring the flow does not hit a dead end, but instead forms a cycle that would repeated allow the end user to keep adding their bills',
+        'Making sure every PSD file from desktop to the responsive roll out is pixel perfect before handing in over to developer.',
+        'Ensuring all functionality and feel is in working order during the testing phase and communicating necessary changes to the developers.',
       ],
       image: Mobile,
       desktop: 'https://www.fillmurray.com/202/202',

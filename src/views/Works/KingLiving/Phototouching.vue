@@ -36,11 +36,9 @@ export default {
   data() {
     return {
       title: 'Phototouching',
-      listTitle: 'Key considerations & responsibilites',
+      listTitle: 'Key considerations & responsibilities',
       items: [
-        'Designing icons to be integrated in to website while adhering their branding style',
-        'Implementing new exporting system to raise work effeciency for up to over 65%',
-        'Optimising images for all platforms and sizes',
+        'Photo touching products and images to make sure it fits the style and branding.',
       ],
       laptop: Laptop,
     };

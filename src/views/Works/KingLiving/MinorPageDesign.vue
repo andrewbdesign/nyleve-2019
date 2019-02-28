@@ -13,7 +13,7 @@
 
 <script>
 import LayoutImageFullList from '@/layouts/LayoutImageFullList.vue';
-import Laptop from '@/assets/easy-bill-pay/EBP-wireframe-section.png';
+import Laptop from '@/assets/king-living/kl-minor-page.png';
 
 export default {
   components: {
@@ -22,9 +22,9 @@ export default {
   data() {
     return {
       title: 'Minor Page Design',
-      listTitle: 'Key considerations & responsibilites',
+      listTitle: 'Key considerations & responsibilities',
       items: [
-        'While the creative director has taken care of the main bulk of the design, my role was to take in the design language and style laid out and apply it across pages that haven\'t been created yet and ensure it fits within the design context and website as a whole',
+        'While the creative director has take care of the main bulk of the design, my role was to take in the design language and style laid out and apply it across pages that haven\'t been created yet and ensure it fits within the design context and website as a whole.',
       ],
       image: Laptop,
       desktop: 'https://www.fillmurray.com/202/202',

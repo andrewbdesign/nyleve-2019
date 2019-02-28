@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       title: 'Easy Bill Pay',
-      summary: 'A beloved Australian furniture retail chain that focuses on sleek designer chairs. My main role for this brand was to carry out responsive roll outs of the desktop designs of the intricate and relatively large eCommerce website store.',
+      summary: 'Easy Bill Pay is a service that aims to automate and organise bill payments within one place. EBP aimed to take their service to the next level by investing in creating and redesigning their web service and App. Under the supervision of a Creative Director I\'ve been given a much larger role and heavy involvement to help ensure the  product is lifted off the ground. From Web design, App design all the way through Marketing collateral, some of these roles include',
       cta: 'Go to website',
     };
   },

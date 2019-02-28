@@ -20,15 +20,14 @@ export default {
   data() {
     return {
       title: 'Creative Direction',
-      summary: 'As the web protal and App must have a unison sense of flow it was essential from the very earl stages to have this in mind. My role during the wire framing stage was to wok on and expand the ideas of the Creative Director to make sure his design thinking and solution is reflected on every necessary page/section of the Web Portal/App.',
+      summary: 'The initial concept and direction i wanted to take the website was drawn from their core ethos of creating messages through the art of story telling. With this in mind I\'ve taken every details to follow the story of who they are, what they can do and of course where to find and contact them all whilst maintaining to showcase their talent of finding beauty within the world around them.',
       listTitle: 'Key considerations & responsibilities',
       items: [
-        'Maintenance of core functionality and design language when expanding into creation of other pages',
-        'Applying an intuitive feeling when designing navigation to and from other pages',
-        'Thinking modular in terms of sections that would need little to no arragement when applied to different pages',
-        'Arrangement with a sense of responsive design in mind to allow functionality across all devices',
-        'Functionality interchangeable to both the web portal and mobile app to ensure all changes would be reflected from on platform to the other',
-        'Apply intuitive sense arrangement and information architecture as to not cause information overload',
+        'Wire framing and proposing look and feel of their new website.',
+        'Proposal of UI/UX strategy',
+        'Gathering and extrapolating all video and still images from client.',
+        'Liaising with the client and developers to ensure all requirements project requirements are met.',
+        'Seamless Inter-connectivity with other social media platforms',
       ],
       image: Laptop,
       className: 'redscope-creative-direction',

@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       title: 'Responsive Web Rollouts',
-      listTitle: 'Key considerations & responsibilites',
+      listTitle: 'Key considerations & responsibilities',
       items: [
         'Responsive Roll outs with 3 break points for entirety of website',
         'Maintenance of functionality look and feel',
