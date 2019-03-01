@@ -1,16 +1,22 @@
 <template>
-  <LayoutImageFullList
-    :title="title"
-    :listTitle="listTitle"
-    :items="items"
-  >
-    <div class="icon-group">
-      <img :src="laptop"/>
-      <img :src="laptop"/>
-      <img :src="laptop"/>
-    </div>
-    <BaseButton msg="Go to Website" />
-  </LayoutImageFullList>
+  <div>
+    <LayoutImageFullList
+      :title="title"
+      :listTitle="listTitle"
+      :items="items"
+      :image="image"
+      :mobile="mobile"
+      :tablet="tablet"
+      :laptop="laptop"
+      >
+      <!-- <div class="icon-group">
+        <img :src="laptop"/>
+        <img :src="laptop"/>
+        <img :src="laptop"/>
+      </div> -->
+      <BaseButton msg="Go to Website" />
+    </LayoutImageFullList>
+  </div>
 </template>
 
 <style lang="scss" scoped>

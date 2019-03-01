@@ -57,19 +57,19 @@ export default {
   props: {
     image: {
       type: String,
-      required: true,
+      required: false,
     },
     desktop: {
       type: String,
-      required: true,
+      required: false,
     },
     tablet: {
       type: String,
-      required: true,
+      required: false,
     },
     mobile: {
       type: String,
-      required: true,
+      required: false,
     },
     className: {
       type: String,

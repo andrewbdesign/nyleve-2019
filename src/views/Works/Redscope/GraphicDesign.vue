@@ -1,15 +1,17 @@
 <template>
-  <LayoutImageRight
-    :title="title"
-    :summary="summary"
-    :listTitle="listTitle"
-    :items="items"
-    :image="image"
-    :desktop="desktop"
-    :tablet="tablet"
-    :mobile="mobile"
-    :className="className"
-  ></LayoutImageRight>
+  <div>
+    <LayoutImageRight
+      :title="title"
+      :summary="summary"
+      :listTitle="listTitle"
+      :items="items"
+      :image="image"
+      :desktop="desktop"
+      :tablet="tablet"
+      :mobile="mobile"
+      :className="className"
+    ></LayoutImageRight>
+  </div>
 </template>
 
 <script>
@@ -31,6 +33,9 @@ export default {
       ],
       image: Mobile,
       className: 'ebp-mobile',
+      desktop: 'https://www.fillmurray.com/202/202',
+      tablet: 'https://www.fillmurray.com/204/204',
+      mobile: 'https://www.fillmurray.com/206/206',
     };
   },
 };

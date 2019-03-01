@@ -14,7 +14,7 @@
 
 <script>
 import LayoutImageRight from '@/layouts/LayoutImageRight.vue';
-import Mobile from '@/assets/easy-bill-pay/mobile.png';
+import Mobile from '@/assets/king-living/kl-testing.png';
 
 export default {
   components: {
@@ -33,7 +33,7 @@ export default {
       desktop: 'https://www.fillmurray.com/202/202',
       tablet: 'https://www.fillmurray.com/204/204',
       mobile: 'https://www.fillmurray.com/206/206',
-      className: 'ebp-mobile',
+      className: 'kl-mobile',
     };
   },
 };

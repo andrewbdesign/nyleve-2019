@@ -32,8 +32,8 @@
 <script>
 import LayoutContainer from '@/layouts/LayoutContainer.vue';
 import LayoutHalfPage from '@/layouts/LayoutHalfPage.vue';
-import BaseImage from '@/components/BaseImage.vue';
 import BaseList from '@/components/BaseList.vue';
+import BaseImage from '@/components/BaseImage.vue';
 
 export default {
   props: {
@@ -77,8 +77,8 @@ export default {
   components: {
     LayoutContainer,
     LayoutHalfPage,
-    BaseImage,
     BaseList,
+    BaseImage,
   },
 };
 </script>
