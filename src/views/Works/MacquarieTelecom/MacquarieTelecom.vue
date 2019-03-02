@@ -4,7 +4,7 @@
     <Summary></Summary>
     <ResponsiveWebRollouts></ResponsiveWebRollouts>
     <MinorPageDesign></MinorPageDesign>
-    <!-- <IconDesign></IconDesign> -->
+    <IconDesign></IconDesign>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ import Hero from '@/views/Works/MacquarieTelecom/Hero.vue';
 import Summary from '@/views/Works/MacquarieTelecom/Summary.vue';
 import ResponsiveWebRollouts from '@/views/Works/MacquarieTelecom/ResponsiveWebRollouts.vue';
 import MinorPageDesign from '@/views/Works/MacquarieTelecom/MinorPageDesign.vue';
-// import IconDesign from '@/views/Works/MacquarieTelecom/IconDesign.vue';
+import IconDesign from '@/views/Works/MacquarieTelecom/IconDesign.vue';
 
 export default {
   components: {
@@ -22,7 +22,7 @@ export default {
     Summary,
     ResponsiveWebRollouts,
     MinorPageDesign,
-    // IconDesign,
+    IconDesign,
   },
 };
 </script>

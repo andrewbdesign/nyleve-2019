@@ -1,25 +1,31 @@
 <template>
-  <LayoutImageFull
-    :title="title"
-    :summary="summary"
-    :listTitle="listTitle"
-    :items="items"
-    :image="image"
-    :className="className"
-  >
-    <BaseButton msg="Go to website"></BaseButton>
-  </LayoutImageFull>
+
+  <div class="layout-image-full-list">
+    <LayoutContainer>
+      <h2 v-if="title"> {{ title }} </h2>
+      <p v-if="summary"> {{ summary }} </p>
+      <BaseList
+        :items="items"
+        :listTitle="listTitle"
+      ></BaseList>
+      <Showreel></Showreel>
+      <BaseButton msg="Go to website"></BaseButton>
+    </LayoutContainer>
+  </div>
 </template>
 
 <script>
-import LayoutImageFull from '@/layouts/LayoutImageFull.vue';
+import LayoutContainer from '@/layouts/LayoutContainer.vue';
 import BaseButton from '@/components/BaseButton.vue';
-import Laptop from '@/assets/easy-bill-pay/EBP-wireframe-section.png';
+import BaseList from '@/components/BaseList.vue';
+import Showreel from '@/views/Works/Redscope/Showreel.vue';
 
 export default {
   components: {
-    LayoutImageFull,
+    LayoutContainer,
     BaseButton,
+    BaseList,
+    Showreel,
   },
   data() {
     return {
@@ -32,8 +38,6 @@ export default {
         'Decreased website loading time by 65% by Video optimisation',
         'Ensure all images and animations are low',
       ],
-      image: Laptop,
-      className: 'ebp-wireframe',
     };
   },
 };
