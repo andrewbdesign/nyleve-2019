@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <div class="hero" :style="{ backgroundImage: 'url(' + this.heroImage + ')' }">
     <LayoutContainer>
       <h1> {{ title }} </h1>
       <p> {{ summary }} </p>
@@ -11,6 +11,8 @@
 <style lang="scss" scoped>
 .hero {
   background: $greyMedium;
+  background-size: cover;
+  color: #fff;
 }
 </style>
 
@@ -32,6 +34,10 @@ export default {
     cta: {
       type: String,
       required: true,
+    },
+    heroImage: {
+      type: String,
+      required: false,
     },
   },
   components: {
