@@ -1,10 +1,9 @@
 <template>
-  <div class="base-image" v-if="image">
-    <img
-      :src="image"
-      alt="phone"
-      :class="className"
-    />
+  <div class="base-video" v-if="mp4">
+    <video autoplay loop muted>
+      <source :src="mp4" type="video/mp4">
+      <source :src="webm" type="video/webm">
+    </video>
     <div v-if="desktop">
       <p class="">Image Gallery (Closer look)</p>
       <a v-if="desktop" :href="desktop">Desktop</a> |
@@ -15,11 +14,11 @@
 </template>
 
 <style lang="scss" scoped>
-.base-image {
+.base-video {
   text-align: center;
-  img {
-    width: 100%;
-    margin: 1.3rem 0;
+  img, video {
+    width: 70%;
+    margin: 0;
   }
   img + p {
     font-weight: bold;
@@ -55,7 +54,11 @@
 <script>
 export default {
   props: {
-    image: {
+    mp4: {
+      type: String,
+      required: false,
+    },
+    webm: {
       type: String,
       required: false,
     },

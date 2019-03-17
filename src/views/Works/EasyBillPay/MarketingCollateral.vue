@@ -26,7 +26,7 @@
     border: 0;
     text-align: center;
     display: block;
-    margin: 1rem 0;
+    margin: 1rem auto;
     width: 300px;
     height: 250px;
   }

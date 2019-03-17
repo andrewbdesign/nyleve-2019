@@ -1,24 +1,26 @@
 <template>
-  <LayoutImageRight
+  <LayoutVideoRight
     :title="title"
     :summary="summary"
     :listTitle="listTitle"
     :items="items"
-    :image="image"
+    :mp4="mp4"
+    :webm="webm"
     :desktop="desktop"
     :tablet="tablet"
     :mobile="mobile"
     :className="className"
-  ></LayoutImageRight>
+  ></LayoutVideoRight>
 </template>
 
 <script>
-import LayoutImageRight from '@/layouts/LayoutImageRight.vue';
-import Mobile from '@/assets/easy-bill-pay/mobile.png';
+import LayoutVideoRight from '@/layouts/LayoutVideoRight.vue';
+import mp4 from '@/assets/easy-bill-pay/app-design-section.mp4';
+import webm from '@/assets/easy-bill-pay/app-design-section.webm';
 
 export default {
   components: {
-    LayoutImageRight,
+    LayoutVideoRight,
   },
   data() {
     return {
@@ -31,11 +33,12 @@ export default {
         'creation of newer graphics to create a more clear distinction between web portal and phone app',
         'Applying design to functionality that works on both android and iOS',
       ],
-      image: Mobile,
+      mp4,
+      webm,
       desktop: 'https://www.fillmurray.com/202/202',
       tablet: 'https://www.fillmurray.com/204/204',
       mobile: 'https://www.fillmurray.com/206/206',
-      className: 'ebp-mobile',
+      className: 'ebp-mobile app-design-ebp',
     };
   },
 };

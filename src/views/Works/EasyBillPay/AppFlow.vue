@@ -1,5 +1,5 @@
 <template>
-  <LayoutImageRight
+  <LayoutImageFull
     :title="title"
     :summary="summary"
     :listTitle="listTitle"
@@ -9,16 +9,16 @@
     :tablet="tablet"
     :mobile="mobile"
     :className="className"
-  ></LayoutImageRight>
+  ></LayoutImageFull>
 </template>
 
 <script>
-import LayoutImageRight from '@/layouts/LayoutImageRight.vue';
-import Mobile from '@/assets/easy-bill-pay/mobile.png';
+import LayoutImageFull from '@/layouts/LayoutImageFull.vue';
+import Mobile from '@/assets/easy-bill-pay/app-flow-design.png';
 
 export default {
   components: {
-    LayoutImageRight,
+    LayoutImageFull,
   },
   data() {
     return {

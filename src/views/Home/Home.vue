@@ -1,14 +1,16 @@
 <template>
   <div class="home">
-    <LayoutContainer>
+    <!-- <LayoutContainer>
         <h1>Nyleve 'The Designer' Alejandrino</h1>
         <p>"Sometimes you gotta do what you gotta do" - circa 2016</p>
-        <HomeWorks></HomeWorks>
+        <Works></Works>
         <BaseButton
           @click.native="toWorksPage"
           msg="See all works"
         />
-    </LayoutContainer>
+    </LayoutContainer> -->
+    <Hero></Hero>
+    <Works></Works>
     <About></About>
   </div>
 </template>
@@ -22,17 +24,21 @@
 
 
 <script>
-import BaseButton from '@/components/BaseButton.vue';
-import HomeWorks from '@/views/Home/HomeWorks.vue';
-import LayoutContainer from '@/layouts/LayoutContainer.vue';
+// import BaseButton from '@/components/BaseButton.vue';
+// import HomeWorks from '@/views/Home/HomeWorks.vue';
+// import LayoutContainer from '@/layouts/LayoutContainer.vue';
+import Hero from '@/views/Home/Hero/Hero.vue';
+import Works from '@/views/Home/Works/Works.vue';
 import About from '@/views/Home/About/About.vue';
 
 export default {
   components: {
-    BaseButton,
-    HomeWorks,
-    LayoutContainer,
+    Hero,
+    Works,
     About,
+    // BaseButton,
+    // HomeWorks,
+    // LayoutContainer,
   },
   methods: {
     toWorksPage() {

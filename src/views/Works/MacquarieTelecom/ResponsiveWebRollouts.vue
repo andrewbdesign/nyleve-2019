@@ -13,7 +13,7 @@
 
 <script>
 import LayoutImageFullList from '@/layouts/LayoutImageFullList.vue';
-import Laptop from '@/assets/easy-bill-pay/EBP-wireframe-section.png';
+import Laptop from '@/assets/macq-telecom/macq-responsive.png';
 
 export default {
   components: {
