@@ -1,35 +1,55 @@
 <template>
   <footer class="footer">
     <LayoutContainerNoPadding>
-      <p> Nyleve Alejandrino | {{ date }} </p>
+      <div class="footer-content">
+        <BaseButton
+          @click.native="downloadResume"
+          msg="Download resume"
+        />
+        <div>
+          <p>nylevealejandrino@gmail.com | Facebook | LinkedIn </p>
+        </div>
+        <div>
+          <p>Back to top</p>
+        </div>
+      </div>
     </LayoutContainerNoPadding>
   </footer>
 </template>
 
 <script>
 import LayoutContainerNoPadding from '@/layouts/LayoutContainerNoPadding.vue';
+import BaseButton from '@/components/BaseButton.vue';
 
 export default {
+  methods: {
+    downloadResume() {
+      console.log('downloading resume...');
+    },
+  },
   components: {
     LayoutContainerNoPadding,
-  },
-  data() {
-    return {
-      date: new Date().getFullYear(),
-    };
+    BaseButton,
   },
 };
 </script>
 
 <style lang="scss">
 .footer {
-  background: $greyMedium;
+  background: $greyDark;
   color: #fff;
   padding: 20px 0;
-  text-align: center;
   font-size: $s-size;
+  text-align: center;
   p {
     margin: 0;
+  }
+  @media screen and (min-width: 810px){
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
 }
 </style>
