@@ -16,11 +16,6 @@
       </div>
     </div>
   </div>
-  <!-- <router-link to="/works/easy-bill-pay">Easy Bill Pay</router-link> - -->
-  <!-- <router-link to="/works/macquarie-telecom">Macquarie Telecom</router-link> - -->
-  <!-- <router-link to="/works/king-living">King Living</router-link> - -->
-  <!-- <router-link to="/works/redscope">Redscope</router-link> - -->
-  <!-- <router-link to="/works/edm-html5-motion">EDM HTML5 Motion</router-link> -->
 </template>
 
 <style lang="scss" scoped>
@@ -32,17 +27,36 @@ h3 {
   font-size: $l-size;
   padding: 1em 0;
 }
-.works-section {
-  // padding: $xl-size 0;
+.work-tile {
+  background-size: cover;
+  background-position: center;
+  height: 100vw;
+  // height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 640px) {
   .work-tile {
-    background-size: cover;
-    background-position: center;
-    height: 100vw;
-    // height: 320px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    width: 50%;
+    height: 50vw;
+    display: inline-flex;
+  }
+  .works-section div:last-child {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .work-tile {
+    width: 33.33%;
+    height: 33.33vh;
+  }
+  .works-section div:last-child {
+    width: 66.67%;
   }
 }
 </style>
