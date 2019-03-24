@@ -1,12 +1,20 @@
 <template>
   <div id="nav">
     <LayoutContainerNoPadding>
-      <router-link to="/">Home</router-link> -
-      <router-link to="/works/easy-bill-pay">Easy Bill Pay</router-link> -
-      <router-link to="/works/macquarie-telecom">Macquarie Telecom</router-link> -
-      <router-link to="/works/king-living">King Living</router-link> -
-      <router-link to="/works/redscope">Redscope</router-link> -
-      <router-link to="/works/edm-html5-motion">EDM HTML5 Motion</router-link>
+      <div class="menu-container">
+        <div class="logo">
+          <router-link to="/">Nyleve Alejandrino</router-link>
+        </div>
+        <div class="menu-items">
+          <router-link to="/">Home</router-link>
+          <router-link to="/">Selected works</router-link>
+        </div>
+      </div>
+      <!-- <router-link to="/works/easy-bill-pay">Easy Bill Pay</router-link> - -->
+      <!-- <router-link to="/works/macquarie-telecom">Macquarie Telecom</router-link> - -->
+      <!-- <router-link to="/works/king-living">King Living</router-link> - -->
+      <!-- <router-link to="/works/redscope">Redscope</router-link> - -->
+      <!-- <router-link to="/works/edm-html5-motion">EDM HTML5 Motion</router-link> -->
     </LayoutContainerNoPadding>
   </div>
 </template>
@@ -28,15 +36,29 @@ export default {
   padding: 20px;
   a {
     color: #fff;
-    font-size: $m-size;
+    font-size: $s-size;
+    font-weight: bold;
     display: inline-block;
-    // margin-right: 10px;
     text-decoration: none;
+  }
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-items {
+    a:first-child {
+      margin: 0 20px;
+    }
   }
 }
   @media screen and (min-width: $tablet) {
     #nav {
       padding: 20px 0;
+    }
+  }
+  @media screen and (min-width: 490px) {
+    #nav a {
+      font-size: $m-size;
     }
   }
 </style>
