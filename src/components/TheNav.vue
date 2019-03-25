@@ -7,7 +7,8 @@
         </div>
         <div class="menu-items">
           <router-link to="/">Home</router-link>
-          <router-link to="/">Selected works</router-link>
+          <!-- <router-link to="/">Selected works</router-link> -->
+          <p @click="scrollToWorks">Selected works</p>
         </div>
       </div>
     </LayoutContainerNoPadding>
@@ -16,10 +17,16 @@
 
 <script>
 import LayoutContainerNoPadding from '@/layouts/LayoutContainerNoPadding.vue';
+import { TweenLite } from 'gsap';
 
 export default {
   components: {
     LayoutContainerNoPadding,
+  },
+  methods: {
+    scrollToWorks() {
+      TweenLite.to(window, 1.2, { scrollTo: '#works', ease: 'Power1.easeOut' })
+    }
   },
 };
 </script>
@@ -29,18 +36,23 @@ export default {
   background: $greyDark;
   color: #fff;
   padding: 20px;
-  a {
+  a, p {
     color: #fff;
     font-size: $s-size;
     font-weight: bold;
     display: inline-block;
     text-decoration: none;
+    margin: 0;
+    cursor: pointer;
   }
   .menu-container {
     display: flex;
     justify-content: space-between;
   }
   .menu-items {
+    p {
+      display: inline-block;
+    }
     a:first-child {
       margin: 0 20px;
     }
@@ -52,7 +64,7 @@ export default {
     }
   }
   @media screen and (min-width: 490px) {
-    #nav a {
+    #nav a, #nav p {
       font-size: $m-size;
     }
   }

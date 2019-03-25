@@ -10,7 +10,7 @@
           <p>nylevealejandrino@gmail.com | Facebook | LinkedIn </p>
         </div>
         <div>
-          <p>Back to top</p>
+          <p @click="scrollTop">Back to top</p>
         </div>
       </div>
     </LayoutContainerNoPadding>
@@ -20,11 +20,15 @@
 <script>
 import LayoutContainerNoPadding from '@/layouts/LayoutContainerNoPadding.vue';
 import BaseButton from '@/components/BaseButton.vue';
+import { TweenLite } from 'gsap';
 
 export default {
   methods: {
     downloadResume() {
-      console.log('downloading resume...');
+      alert('downloading resume...');
+    },
+    scrollTop() {
+      TweenLite.to(window, 1.2, { scrollTo: '#nav', ease: 'Power1.easeOut' });
     },
   },
   components: {
@@ -43,6 +47,7 @@ export default {
   text-align: center;
   p {
     margin: 0;
+    cursor: pointer;
   }
   @media screen and (min-width: 810px){
     .footer-content {

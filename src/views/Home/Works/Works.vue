@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="works">
     <h3 class="work-title">Selected works</h3>
     <div class="works-section" v-if="works">
       <div
@@ -29,9 +29,8 @@ h3 {
 }
 .work-tile {
   background-size: cover;
-  background-position: center;
+  background-position: 0% 50%;
   height: 100vw;
-  // height: 320px;
   display: flex;
   align-items: center;
   justify-content: center;
