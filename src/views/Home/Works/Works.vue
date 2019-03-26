@@ -13,13 +13,15 @@
       >
         <h3>{{ work.name }}</h3>
         <p>{{ work.description }}</p>
+        &nbsp;
+        <span class="gradient-title"></span>
       </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-h3 {
+h3, p {
   padding: 0;
   margin: 0;
 }
@@ -28,14 +30,35 @@ h3 {
   padding: 1em 0;
 }
 .work-tile {
+  color: #fff;
+  text-align: left;
   background-size: cover;
   background-position: 0% 50%;
   height: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   cursor: pointer;
+  position: relative;
+  h3, p {
+    position: absolute;
+    left: 3%;
+    z-index: 300;
+  }
+  h3 {
+    bottom: 35px;
+  }
+  p {
+    bottom: 10px;
+  }
+}
+
+.gradient-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
 }
 
 @media screen and (min-width: 640px) {
@@ -52,7 +75,9 @@ h3 {
 @media screen and (min-width: 900px) {
   .work-tile {
     width: 33.33%;
-    height: 33.33vh;
+    height: 38vh;
+    min-height: 290px;
+    max-height: 290px;
   }
   .works-section div:last-child {
     width: 66.67%;
@@ -80,35 +105,35 @@ export default {
           id: 1,
           name: 'Easy Bill Pay',
           image: TileEBP,
-          description: 'fill murray',
+          description: 'Web design & Graphics',
           url: 'easy-bill-pay',
         },
         {
           id: 2,
           name: 'King Living',
           image: TileKL,
-          description: 'fill murray',
+          description: 'UI/UX Design',
           url: 'king-living',
         },
         {
           id: 3,
           name: 'Redscope',
           image: TileRedscope,
-          description: 'fill murray',
+          description: 'Web design',
           url: 'redscope',
         },
         {
           id: 4,
           name: 'Macquarie Telecom',
           image: TileMacq,
-          description: 'fill murray',
+          description: 'App design',
           url: 'macquarie-telecom',
         },
         {
           id: 5,
           name: 'EDM and banners',
           image: TileEDM,
-          description: 'fill murray',
+          description: 'Marketing collateral',
           url: 'edm-html5-motion',
         },
       ],
