@@ -61,6 +61,16 @@ h3, p {
   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
 }
 
+.works-section div:nth-child(1),
+.works-section div:nth-child(4) {
+  h3, p {
+    color: #000;
+  }
+  .gradient-title {
+    opacity: 0.2;
+  }
+}
+
 @media screen and (min-width: 640px) {
   .work-tile {
     width: 50%;
