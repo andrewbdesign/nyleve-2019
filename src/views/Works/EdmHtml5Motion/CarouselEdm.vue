@@ -1,31 +1,34 @@
 <template>
   <div>
     <LayoutContainer>
-      <carousel :perPage="1">
-          <slide class="panel">
-            <img :src="slides[0].content" />
-          </slide>
-          <slide class="panel">
-            <img :src="slides[1].content" />
-          </slide>
-          <slide class="panel">
-            <img :src="slides[2].content" />
-          </slide>
-        <!-- <slide>
-          <img :src="KingEDM" />
-        </slide> -->
-        <!-- <slide class="panel">
-          Slide 1 Content
+      <carousel 
+        :perPage="1"
+        autoplay
+        autoplayHoverPause
+        :autoplayTimeout="4000"
+        :navigationEnabled="true"
+        paginationColor="#dadada">
+        <slide class="panel">
+          <img :src="slides[0].content" />
         </slide>
         <slide class="panel">
-          Slide 2 Content
+          <img :src="slides[1].content" />
         </slide>
         <slide class="panel">
-          Slide 3 Content
+            <iframe class="mrec" src="https://300x250concepta-cpml2h40f.now.sh/"></iframe>
         </slide>
         <slide class="panel">
-          Slide 4 Content
-        </slide> -->
+            <iframe class="mrec" src="https://300x250conceptb-50pb9emh3.now.sh/"></iframe>
+        </slide>
+        <slide class="panel">
+            <iframe class="mrec" src="https://300x250conceptd-4ae6f0rny.now.sh/"></iframe>
+        </slide>
+        <slide class="panel">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wnG7zOZg96E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </slide>
+        <slide class="panel">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/qE3nCcDnaz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </slide>
       </carousel>
     </LayoutContainer>
   </div>
@@ -37,8 +40,21 @@
   align-items: center;
   justify-content: center;
   height: 500px;
-  background: $brandColour;
-
+  background: #333;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  iframe {
+    border: none;
+  }
+  .mrec {
+    width: 300px;
+    height: 250px;
+  }
+}
+button.VueCarousel-dot {
+  background: pink !important;
 }
 </style>
 
@@ -46,6 +62,7 @@
 import { Carousel, Slide } from 'vue-carousel';
 import LayoutContainer from '@/layouts/LayoutContainer.vue';
 import KingEDM from '@/assets/edm/kingeDM_hero.png';
+import RadioRental from '@/assets/edm/RadiorentalseDM_hero.png';
 
 export default {
   components: {
@@ -57,8 +74,8 @@ export default {
     return {
       slides: [
         { id: 1, content: KingEDM },
-        { id: 2, content: KingEDM },
-        { id: 3, content: KingEDM },
+        { id: 2, content: RadioRental },
+        // { id: 3, content: KingEDM },
       ],
     };
   },
