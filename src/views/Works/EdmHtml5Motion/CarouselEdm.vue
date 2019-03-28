@@ -1,7 +1,7 @@
 <template>
   <div>
     <LayoutContainer>
-      <carousel 
+      <carousel
         :perPage="1"
         autoplay
         autoplayHoverPause
