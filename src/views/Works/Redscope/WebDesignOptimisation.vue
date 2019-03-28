@@ -11,7 +11,7 @@
 
 <script>
 import LayoutImageFull from '@/layouts/LayoutImageFull.vue';
-import Laptop from '@/assets/easy-bill-pay/EBP-wireframe-section.png';
+import Laptop from '@/assets/redscope/red-web-design.png';
 
 export default {
   components: {
