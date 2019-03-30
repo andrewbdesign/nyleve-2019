@@ -11,7 +11,7 @@
         :image="work.image"
         v-on:click="goToLink(work.url)"
       >
-        <h3>{{ work.name }}</h3>
+        <!-- <h3>{{ work.name }}</h3> -->
         <p>{{ work.description }}</p>
         &nbsp;
         <span class="gradient-title"></span>

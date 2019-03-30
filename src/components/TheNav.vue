@@ -33,9 +33,11 @@ export default {
 
 <style lang="scss">
 #nav {
-  background: $greyDark;
   color: #fff;
   padding: 20px;
+  position: absolute;
+  width: 100%;
+  background: rgba(0,0,0,0.3);
   a, p {
     color: #fff;
     font-size: $s-size;

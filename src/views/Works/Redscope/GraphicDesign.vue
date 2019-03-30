@@ -16,7 +16,7 @@
 
 <script>
 import LayoutImageRight from '@/layouts/LayoutImageRight.vue';
-import Mobile from '@/assets/easy-bill-pay/mobile.png';
+import Mobile from '@/assets/redscope/red-graphic-design-section.png';
 
 export default {
   components: {

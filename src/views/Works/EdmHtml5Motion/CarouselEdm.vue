@@ -40,7 +40,7 @@
   align-items: center;
   justify-content: center;
   height: 500px;
-  background: #333;
+  // background: #333;
   img {
     width: 100%;
     height: auto;

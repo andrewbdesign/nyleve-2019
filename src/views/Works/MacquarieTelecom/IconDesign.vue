@@ -23,8 +23,8 @@
   justify-content: space-around;
   padding: 4rem 0;
   img {
-    width: 30%;
-    height: 30%;
+    width: 33.33%;
+    height: 33.33%;
   }
 }
 

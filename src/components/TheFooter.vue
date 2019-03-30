@@ -5,6 +5,7 @@
         <BaseButton
           @click.native="downloadResume"
           msg="Download resume"
+          color="#99cdff"
         />
         <div>
           <p>nylevealejandrino@gmail.com | Facebook | LinkedIn </p>
@@ -40,9 +41,8 @@ export default {
 
 <style lang="scss">
 .footer {
-  background: $greyDark;
-  color: #fff;
-  padding: 20px 0;
+  background: #ebebeb;
+  color: #000;
   font-size: $s-size;
   text-align: center;
   p {

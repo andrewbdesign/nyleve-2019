@@ -1,5 +1,5 @@
 <template>
-  <button class="button button-cta"> {{ msg }} </button>
+  <button class="button button-cta" :style="{ backgroundColor: this.color }"> {{ msg }} </button>
 </template>
 
 <style lang="scss" scoped>
@@ -26,6 +26,10 @@ export default {
       type: String,
       required: true,
     },
+    color: {
+      type: String,
+      required: false,
+    }
   },
 };
 </script>

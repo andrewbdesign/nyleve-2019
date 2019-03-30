@@ -24,9 +24,6 @@
 
 
 <script>
-// import BaseButton from '@/components/BaseButton.vue';
-// import HomeWorks from '@/views/Home/HomeWorks.vue';
-// import LayoutContainer from '@/layouts/LayoutContainer.vue';
 import Hero from '@/views/Home/Hero/Hero.vue';
 import Works from '@/views/Home/Works/Works.vue';
 import About from '@/views/Home/About/About.vue';
@@ -36,9 +33,6 @@ export default {
     Hero,
     Works,
     About,
-    // BaseButton,
-    // HomeWorks,
-    // LayoutContainer,
   },
   methods: {
     toWorksPage() {

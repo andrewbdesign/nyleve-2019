@@ -49,7 +49,7 @@ export default {
 <style lang="scss" scoped>
 .hero-section {
   background: #323132;
-  height: calc(100vh - 65px);
+  height: 100vh;
   max-height: 800px;
   min-height: 600px;
   display: flex;
@@ -104,7 +104,8 @@ export default {
     .pen {
       display: block;
       top: -70px;
-      right: 40px;
+      // right: 40px;
+      left: 300px;
     }
     .main-container {
       width: 80%;

@@ -13,6 +13,7 @@
   background: $greyMedium;
   background-size: cover;
   color: #fff;
+  padding-top: 65px;
 }
 </style>
 

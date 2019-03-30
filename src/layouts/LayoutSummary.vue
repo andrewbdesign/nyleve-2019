@@ -10,6 +10,12 @@
 <style lang="scss" scoped>
 .summary {
   background: $greyLight;
+  // .container {
+  //   padding: 3.6rem 0;
+  // }
+  p {
+    margin: 6px 0 0;
+  }
 }
 </style>
 
