@@ -6,6 +6,7 @@
       :class="className"
     />
     <div v-if="desktop">
+      &nbsp;
       <p class="">Image Gallery (Closer look)</p>
       <a v-if="desktop" :href="desktop">Desktop</a> |
       <a v-if="tablet" :href="tablet">Tablet</a> |
@@ -49,6 +50,18 @@
     }
   }
 }
+
+@media screen and (min-width: 980px) {
+  .base-image {
+    .red-letter-a {
+        position: absolute;
+        left: 290px;
+        top: -90px;
+        margin: 0;
+      }
+  }
+}
+
 </style>
 
 

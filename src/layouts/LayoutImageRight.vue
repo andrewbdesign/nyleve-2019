@@ -23,9 +23,9 @@
 </template>
 
 <style lang="scss" scoped>
-.image-right {
-  background: $offWhite;
-}
+// .image-right {
+//   background: $offWhite;
+// }
 </style>
 
 

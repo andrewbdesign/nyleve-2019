@@ -1,13 +1,23 @@
 <template>
-  <LayoutImageRightTitle
-    :title="title"
-    :summary="summary"
-    :listTitle="listTitle"
-    :items="items"
-    :image="image"
-    :className="className"
-  ></LayoutImageRightTitle>
+  <div class="red-creative-direction">
+    <LayoutImageRightTitle
+      :title="title"
+      :summary="summary"
+      :listTitle="listTitle"
+      :items="items"
+      :image="image"
+      :className="className"
+    ></LayoutImageRightTitle>
+  </div>
 </template>
+
+<style lang="scss" scoped>
+.red-creative-direction {
+  background: #141414;
+  color: #fff;
+}
+</style>
+
 
 <script>
 import LayoutImageRightTitle from '@/layouts/LayoutImageRightTitle.vue';

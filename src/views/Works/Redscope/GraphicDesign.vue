@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="red-graphic-design">
     <LayoutImageRight
       :title="title"
       :summary="summary"
@@ -13,6 +13,15 @@
     ></LayoutImageRight>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.red-graphic-design {
+  background: #141414;
+  color: #fff;
+}
+
+</style>
+
 
 <script>
 import LayoutImageRight from '@/layouts/LayoutImageRight.vue';
@@ -32,10 +41,10 @@ export default {
         'Image extraction and design execution',
       ],
       image: Mobile,
-      className: 'ebp-mobile',
-      desktop: 'https://www.fillmurray.com/202/202',
-      tablet: 'https://www.fillmurray.com/204/204',
-      mobile: 'https://www.fillmurray.com/206/206',
+      className: 'red-letter-a',
+      desktop: '',
+      tablet: '',
+      mobile: '',
     };
   },
 };

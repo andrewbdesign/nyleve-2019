@@ -1,6 +1,5 @@
 <template>
-
-  <div class="layout-image-full-list">
+  <div class="layout-image-full-list red-animation-section">
     <LayoutContainer>
       <h2 v-if="title"> {{ title }} </h2>
       <p v-if="summary"> {{ summary }} </p>
@@ -13,6 +12,14 @@
     </LayoutContainer>
   </div>
 </template>
+
+<style lang="scss">
+.red-animation-section {
+  background: #141414;
+  color: #fff;
+}
+</style>
+
 
 <script>
 import LayoutContainer from '@/layouts/LayoutContainer.vue';

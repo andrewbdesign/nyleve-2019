@@ -10,6 +10,8 @@
   justify-content: space-evenly;
   flex-direction: column;
   padding: 3rem 0 0;
+  position: relative;
+  z-index: 300;
   div {
     width: 100%;
   }
