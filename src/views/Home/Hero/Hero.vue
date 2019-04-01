@@ -49,8 +49,8 @@ export default {
 <style lang="scss" scoped>
 .hero-section {
   background: #323132;
-  height: 100vh;
-  max-height: 800px;
+  height: 99vh;
+  // max-height: 800px;
   min-height: 600px;
   display: flex;
   justify-content: center;
