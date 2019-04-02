@@ -7,8 +7,8 @@
       :listTitle="listTitle"
       :items="items"
       :className="className"
-    ></LayoutImageRightTitle>
-    <div>
+    >
+    <div class="svg-animations">
       <svg id="loader-logo-outline" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="592.495px" height="180.939px" viewBox="0 0 592.495 180.939" enable-background="new 0 0 592.495 180.939" xml:space="preserve">
           <g id="logo_-_grey_scale" display="none">
           	<polygon display="inline" fill="#DB1F26" points="165.926,97.809 157.926,89.81 157.926,128.402 165.926,126.963"/>
@@ -224,6 +224,7 @@
           </g>
         </svg>
     </div>
+    </LayoutImageRightTitle>
   </div>
 </template>
 
@@ -231,6 +232,23 @@
 .red-creative-direction {
   background: #141414;
   color: #fff;
+}
+.svg-animations {
+  margin: 4em auto;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+
+}
+@media screen and (min-width: 980px) {
+  .svg-animations {
+    margin: 2em auto;
+    svg {
+      width: 70%;
+    }
+    // width: 100% !important;
+    // padding-left: 2em;
+  }
 }
 </style>
 
@@ -261,10 +279,7 @@ export default {
       '#P-redscope .ww',
       '#E-redscope-2 .ww',
     ];
-    const incrementor = 0.3;
-    for (let i = 0; i < elements.length; i++) {
-      tl.fromTo(elements[i], 2, { drawSVG: '0%' }, { drawSVG: '100%', force3D: true, ease }, i * incrementor);
-    }
+    tl.staggerFromTo(elements, 2, { drawSVG: '0%' }, { drawSVG: '100%', force3D: true, ease }, 0.3, 0);
   },
   data() {
     return {

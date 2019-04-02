@@ -15,6 +15,7 @@
           :mobile="mobile"
           :className="className"
         ></BaseImage>
+        <slot></slot>
       </LayoutHalfPage>
     </LayoutContainer>
   </div>
