@@ -8,7 +8,10 @@
           color="#99cdff"
         />
         <div>
-          <p>nylevealejandrino@gmail.com | Facebook | LinkedIn </p>
+          <p>
+            <a href="mailto:nylevealejandrino@gmail.com">nylevealejandrino@gmail.com</a> | 
+            <a href="https://www.facebook.com/tontonlives" target="_blank">Facebook</a> | 
+            <a href="https://linkedin.com/in/nylevealejandrino" target="_blank">LinkedIn</a> </p>
         </div>
         <div>
           <p @click="scrollTop">Back to top</p>

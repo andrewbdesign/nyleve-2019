@@ -1,14 +1,5 @@
 <template>
   <div class="home">
-    <!-- <LayoutContainer>
-        <h1>Nyleve 'The Designer' Alejandrino</h1>
-        <p>"Sometimes you gotta do what you gotta do" - circa 2016</p>
-        <Works></Works>
-        <BaseButton
-          @click.native="toWorksPage"
-          msg="See all works"
-        />
-    </LayoutContainer> -->
     <Hero></Hero>
     <Works></Works>
     <About></About>

@@ -3,7 +3,7 @@
     <LayoutContainer>
       <div class="about-section">
         <div class="about-image">
-          <img src="https://www.fillmurray.com/300/300" />
+          <img class="profile" src="@/assets/profile.jpg" />
         </div>
         <div class="about-description">
           <h1>{{ title }}</h1>
@@ -38,6 +38,12 @@
       .about-description {
         text-align: left;
         padding-left: 2em;
+      }
+      .about-image {
+        img {
+          width: 220px;
+          border-radius: 50%;
+        }
       }
     }
   }

@@ -268,6 +268,7 @@ export default {
       onComplete() { tl.reverse(); },
       onReverseComplete() { tl.play(); },
     });
+		tl.timeScale(3)
     const ease = 'Power1.easeOut';
     const elements = [
       '#R-redscope .rr',
